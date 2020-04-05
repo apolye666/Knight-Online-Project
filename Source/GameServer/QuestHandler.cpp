@@ -9,7 +9,8 @@ void CUser::QuestDataRequest()
 	foreach (itr, m_questMap)
 		result	<< itr->first << itr->second;
 	Send(&result);
-}
+}lknlknlknkl
+
 
 void CUser::QuestV2PacketProcess(Packet & pkt)
 {
